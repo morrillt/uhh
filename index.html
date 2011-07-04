@@ -1,0 +1,48 @@
+<html>
+<head>
+  <link rel="stylesheet" href="./css/blueprint/screen.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="./css/blueprint/print.css" type="text/css" media="print"> 
+  <!--[if lt IE 8]>
+    <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
+  <![endif]-->
+<script type="text/javascript">
+function displayDate()
+{
+document.getElementById("demo").innerHTML=Date();
+}
+</script>
+</head>
+<body>
+
+  <div class="container">
+  	<div class="span-24">
+  		The header
+  	</div>
+
+  	<div class="span-4">
+  	
+  		<p class ="loud"> first column: loud </p>
+  		<p class ="loud"> first column: loud </p>
+  		<p class ="loud"> first column: loud </p>
+  		
+  	</div>
+  	<div class="span-16">
+  	<p class="large">
+  		The center column </p>]
+  	</div>
+  	<div class="span-4 last">
+  		The last column
+  	</div>
+	
+  	<div class="span-24">
+  		The footer
+  	</div>
+  </div>
+
+<h1>Playtime</h1>
+<p id="demo">This is a paragraph.</p>
+
+<button type="button" onclick="displayDate()">Display Date</button>
+
+</body>
+</html> 
